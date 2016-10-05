@@ -1,0 +1,19 @@
+---
+title: "Simple Regression Analysis"
+author: "Aoyi Shan"
+date: "Oct 04, 2016"
+---
+
+# Abstract
+
+In this report, by using the Advertising dataset at 
+
+# Introduction
+
+# Data
+
+# Methodology
+
+# Results
+
+# Conclusions
