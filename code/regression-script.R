@@ -1,6 +1,5 @@
 data_set <- read.csv("data/Advertising.csv")
 
-
 lm <- lm(Sales ~ TV, data = data_set)
 save(lm, file = "data/regression.RData")
 summary(lm)

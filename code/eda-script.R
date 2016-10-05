@@ -3,6 +3,7 @@ data_set <- read.csv("data/Advertising.csv")
 
 sink(file = "data/eda-output.txt")
 summary(data_set)
+sink()
 
 png("images/histogram-tv.png")
 hist(data_set$TV, main = "Histogram of TV Advertising", xlab = "TV Advertising", col = "blue")

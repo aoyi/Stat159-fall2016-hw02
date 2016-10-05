@@ -1,16 +1,17 @@
-all: report.pdf eda-output.txt regression.RData
+all: eda-output.txt regression.RData report.pdf
 
-report.pdf: report.Rmd regression.RData scatterplot-tv-sales.png
-	echo ""
+report.pdf: report/report.Rmd regression.RData images/scatterplot-tv-sales.png
+	Rscript -e "library(rmarkdown); render('report/report.Rmd', 'pdf_document')"
+	Rscript -e "library(rmarkdown); render('report/report.Rmd', 'html_document')"
 
-eda-output.txt: eda-script.R Advertising
-	echo ""
+eda-output.txt: code/eda-script.R data/Advertising.csv
+	Rscript code/eda-script.R
 
-regression.RData: regression-script.R Advertising.csv
-	echo ""
+regression.RData: code/regression-script.R data/Advertising.csv
+	Rscript code/regression-script.R
 
 data:
 	data/curl -O http://www-bcf.usc.edu/~gareth/ISL/Advertising.csv
 
 clean:
-	rm report/ report.pdf report.html
+	rm -f report/report.pdf report/report.html
