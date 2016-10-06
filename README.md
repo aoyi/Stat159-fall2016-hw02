@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In this homework, our objective is to reproduce the simple regression analysis introduced in Chapter 3, Linear Regression, from the book "An Introduction to Statistical Learning" by James et al. To replicate the result, we maily apply computational tookkit in r such as lm and summary and combine with key elements for reproducible work such as makefile and git. The requirement for this project can be found at stat159-fall-2016/hws/hw02/stat159-hw02-simple-regression.pdf. 
+In this homework, our objective is to reproduce the simple regression analysis introduced in Chapter 3, Linear Regression, from the book "An Introduction to Statistical Learning" by Gareth James, Deniela Witten, Trevor Hastie and Robert Tibshirani. To replicate the result, we mainly apply computational toolkit in r such as lm and summary function and combine them with key elements for reproducible work such as makefile and git. The requirement for this project can be found at stat159-fall-2016/hws/hw02/stat159-hw02-simple-regression.pdf. 
 
 ## Structure
 
@@ -32,11 +32,16 @@ stat159-fall2016-hw02/
     report/
     	report.Rmd
     	report.pdf
+    	report.html
 ```
 
-Makefile contains a script that automates the process of generating the linear regression model and knitting the output pdf. 
+Makefile contains a script that automates the process of generating the linear regression model, producing the summary statistics and graphs and then knitting the output pdf. 
 
-Data contains all the 
+Data folder contains our original data set, Advertising.csv, eda-output, which contain the summary statistics of TV and Sales, and regression.RData includes all the regression objects we obtained by running the linear regression model in binary format.
+
+Image folder is composed of three graphs, histogram for sales, histogram for TV and scatterplot demonstrating the relationship between TV and sales. Each graph is saved in both png and pdf format. 
+
+Report folder contains the final report in three different formats, Rmd, pdf and html.
 
 ## Contributor
 

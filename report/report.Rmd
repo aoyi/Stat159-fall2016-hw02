@@ -6,7 +6,7 @@ date: "Oct 04, 2016"
 
 ## Abstract
 
-In this report, we summarize the steps we took toward replicating the results in Chapter 3, Linear Regression, from the book "An Introduction to Statistical Learning" by James et al. In this project, we apply compulational toolkits such as lm function, graphic devices and essential elements that enable a reproducible workflow to reproduce the simple regression analysis. 
+In this report, we summarize the steps we took toward replicating the results in Chapter 3, Linear Regression, from the book "An Introduction to Statistical Learning" by James et al. In this project, we apply computational toolkits such as lm function, graphic devices and essential elements that enable a reproducible workflow to reproduce the simple regression analysis. 
 
 ## Introduction
 
