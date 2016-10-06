@@ -1,4 +1,4 @@
-# Data
+# README Data Folder
 
 This data folder contains three files. Advertising.csv is our original data set on which the linear model is applied. The data file can be downloaded at http://www-bcf.usc.edu/~gareth/ISL/Advertising.csv, credited to Gareth James, Deniela Witten, Trevor Hastie and Robert Tibshirani.
 

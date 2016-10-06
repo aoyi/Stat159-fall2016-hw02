@@ -6,7 +6,7 @@ date: "Oct 04, 2016"
 
 ## Abstract
 
-In this report, we summarize the steps we took toward replicating the results in Chapter 3, Linear Regression, from the book "An Introduction to Statistical Learning" by James et al. In this project, we apply computational toolkits such as lm function, graphic devices and essential elements that enable a reproducible workflow to reproduce the simple regression analysis. 
+In this report, we summarize the steps we took toward replicating the results in Chapter 3, Linear Regression, from the book "An Introduction to Statistical Learning" by Gareth James, Deniela Witten, Trevor Hastie and Robert Tibshirani. In this project, we apply computational toolkits such as lm and summary function, graphic devices namely the scatterplot and essential elements that enable a reproducible workflow to reproduce this simple regression analysis. 
 
 ## Introduction
 
@@ -54,4 +54,4 @@ From the graph we can see that there is an obvious relationship between X and Y 
 
 ## Conclusions
 
-By running linear regression with the data set the book provides, we are able to replicate the result and arrive at the conclusion that there exists a strong linear relationship between the TV advertising budget and sales. 
+By running linear regression with the data set the book provides, we are able to replicate the result and arrive at the conclusion that there exists a strong linear relationship between the TV advertising budget and sales. With statistically significant slope and a reasonable $R^2$, we can conclude that it is beneficial to the sales when we invest more money on TV advertising. 
